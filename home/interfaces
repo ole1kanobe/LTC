@@ -2,11 +2,3 @@
 auto lo
 iface lo inet loopback
 
-auto ##
-iface ## inet static
-	address 10.12.#.#
-	netmask 255.255.255.0
-	network 10.12.#.0
-	broadcast 10.12.#.255
-	gateway 10.12.#.254
-dns-nameservers 10.12.253.50
