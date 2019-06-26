@@ -1,4 +1,5 @@
 sudo mv apport /etc/default/
+sudo mv interfaces /etc/network/
 #sudo mv reboot /etc/cron.d/
 sudo apt-get update
 sudo apt-get install -y openssh-server
