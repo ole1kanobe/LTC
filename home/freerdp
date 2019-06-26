@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "/usr/local/lib/freerdp" > /etc/ld.so.conf.d/freerdp.conf
+sudo ldconfig

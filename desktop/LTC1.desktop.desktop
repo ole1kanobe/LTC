@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LTCRDS
+Exec=/bin/bash -c "xfreerdp /sec:tls /multimon /cert-ignore /d:astrupdrug /v:10.12.253.38:3389"
+Type=Application
+Terminal=true
+Name[en_US]=LTC1.desktop

@@ -1,0 +1,7 @@
+sudo mv ~/apport /etc/default/
+sudo mv ~/reboot /etc/cron.d/
+sudo apt-get update
+sudo apt-get install -y openssh-server
+sudo apt-get install -y x11vnc
+sudo bash ./FreeRDP-2.0.0-rc0/indep
+sudo bash freerdp

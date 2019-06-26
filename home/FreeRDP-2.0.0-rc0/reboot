@@ -1,0 +1,2 @@
+line="0 3 * * * root /sbin/shutdown -r now"
+( crontab -u userhere -l; echo "$line" ) | crontab -u userhere -
