@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-sudo mv apport /etc/default/
-sudo mv interfaces /etc/network/
-#sudo mv reboot /etc/cron.d/
-sudo apt-get update
-sudo apt-get install -y openssh-server
-sudo apt-get install -y x11vnc
-sudo bash ./FreeRDP-2.0.0-rc0/indep
-sudo bash freerdp
-=======
+
 sudo mv apport /etc/default/
 #sudo mv reboot /etc/cron.d/
 sudo apt-get update
@@ -15,4 +6,3 @@ sudo apt-get install -y openssh-server
 sudo apt-get install -y x11vnc
 sudo bash ./FreeRDP-2.0.0-rc0/indep
 sudo bash freerdp
->>>>>>> fc6540c0baf2d0687a0d87b8b0de514a227670db
