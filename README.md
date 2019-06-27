@@ -1,5 +1,5 @@
 # LTC
-This is just a simple automated scripting setup for Ubuntu 16.0.4 for my environment that includes the following:
+This is just a simple automated scripting setup for Ubuntu 16.04 for my environment that includes the following:
 Disabling apport
 Installation of openssh-server
 Installation of x11vnc
