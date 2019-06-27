@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=LTC1
-Exec=/bin/bash -c "xfreerdp /sec:tls /multimon /cert-ignore /d:astrupdrug /v:<SERVER_IP_HERE>:3389"
+Exec=/bin/bash -c "xfreerdp /sec:tls /multimon /cert-ignore /d:<DOMAIN_HERE> /v:<SERVER_IP_HERE>:3389"
 Type=Application
 Terminal=true
 Name[en_US]=LTC1.desktop

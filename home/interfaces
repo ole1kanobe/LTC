@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 auto ##
 iface ## inet static
 	address 10.12.#.#
@@ -6,3 +7,9 @@ iface ## inet static
 	broadcast 10.12.#.255
 	gateway 10.12.#.254
 dns-nameservers 10.12.253.50
+=======
+#interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+>>>>>>> fc6540c0baf2d0687a0d87b8b0de514a227670db
